@@ -1,0 +1,95 @@
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    canvas {
+        border: 2px solid #000;
+        background-color: #fff;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        background-color: #f8f8f8;
+        border: 1px solid black;
+        border-left: 0;
+        padding: 20px;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar h1 {
+        margin: 0px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    #score {
+        font-size: 48px;
+        font-weight: bold;
+        color: #000;
+    }
+    .buttons {
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 0 15px 0;
+    }
+
+    #button1 {
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #button2 {
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #form {
+        width: 220px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #form input {
+        height: 30px;
+        width: 140px;
+    }
+
+    #form button {
+        height: 34px;
+    }
+    .scoreboard {
+        width: 220px;
+        height: 380px;
+        border: 2px solid rgb(181, 181, 181);
+        margin: 20px 0 0 0;
+        background-color: white;
+    }
+    .scoreboard h3 {
+        text-align: center;
+    }
+    .scoreboard .scores {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px 0 40px;
+        margin: 5px 0;
+
+    }
