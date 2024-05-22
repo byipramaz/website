@@ -206,7 +206,7 @@ function gameStart() {
         context.font = '20px Arial';
         context.textAlign = 'left';
         context.textBaseline = 'top';
-        context.fillText('Puan: ' + score, 10, 10);
+        context.fillText('ahmet: ' + score, 10, 10);
 
         if (tetromino) {
             if (++count > 35) {
